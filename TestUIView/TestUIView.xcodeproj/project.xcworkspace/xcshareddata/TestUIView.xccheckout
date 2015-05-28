@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>9E080A29-3858-4B67-B507-69C60F41358D</string>
+	<string>6DBAC55C-6CA0-476A-BC86-6CD9BDCD7A8F</string>
 	<key>IDESourceControlProjectName</key>
-	<string>LearnObject1</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>3BDF98FAA07C070E547CCD343882E9D498FE3A97</key>
 		<string>https://github.com/tao1993/Code_IOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>LearnObject1/LearnObject1.xcodeproj</string>
+	<string>TestUIView/TestUIView.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>3BDF98FAA07C070E547CCD343882E9D498FE3A97</key>

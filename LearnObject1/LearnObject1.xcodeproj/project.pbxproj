@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF34FC3B1AFA76E300B882BC /* BookCar.m in Sources */ = {isa = PBXBuildFile; fileRef = DF34FC3A1AFA76E300B882BC /* BookCar.m */; };
 		DF894AFD1AF9431B00A45A85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF894AFC1AF9431B00A45A85 /* main.m */; };
 		DF894B051AF946DF00A45A85 /* BookShop.m in Sources */ = {isa = PBXBuildFile; fileRef = DF894B041AF946DF00A45A85 /* BookShop.m */; };
 		DF894B081AF9470900A45A85 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = DF894B071AF9470900A45A85 /* Book.m */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DF34FC391AFA76E300B882BC /* BookCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookCar.h; sourceTree = "<group>"; };
+		DF34FC3A1AFA76E300B882BC /* BookCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookCar.m; sourceTree = "<group>"; };
 		DF894AF91AF9431B00A45A85 /* LearnObject1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearnObject1; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF894AFC1AF9431B00A45A85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF894B031AF946DF00A45A85 /* BookShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookShop.h; sourceTree = "<group>"; };
@@ -64,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				DF894AFC1AF9431B00A45A85 /* main.m */,
+				DF34FC391AFA76E300B882BC /* BookCar.h */,
+				DF34FC3A1AFA76E300B882BC /* BookCar.m */,
 				DF894B031AF946DF00A45A85 /* BookShop.h */,
 				DF894B041AF946DF00A45A85 /* BookShop.m */,
 				DF894B061AF9470900A45A85 /* Book.h */,
@@ -129,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF894B051AF946DF00A45A85 /* BookShop.m in Sources */,
+				DF34FC3B1AFA76E300B882BC /* BookCar.m in Sources */,
 				DF894B081AF9470900A45A85 /* Book.m in Sources */,
 				DF894AFD1AF9431B00A45A85 /* main.m in Sources */,
 			);
@@ -247,6 +253,7 @@
 				DF894B021AF9431B00A45A85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
