@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="I9q-yb-1HZ">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--vc2-->
+        <scene sceneID="164-Hs-Wth">
+            <objects>
+                <viewController storyboardIdentifier="vc2_story" title="vc2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="oNK-LB-0FS" customClass="ViewControllerTwo" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LrX-ZT-zuv"/>
+                        <viewControllerLayoutGuide type="bottom" id="Isf-i8-5LX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NiP-kI-NQu">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5bG-9J-OAk">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="this is view two,click to view one">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="95" y="173" width="224" height="30"/>
+                                </variation>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="5bG-9J-OAk"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="5bG-9J-OAk"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="25w-tN-S44"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jKP-7f-E10" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="868.5" y="560"/>
+        </scene>
+        <!--vc1-->
+        <scene sceneID="SaT-tj-xNl">
+            <objects>
+                <viewController storyboardIdentifier="vc1_story" title="vc1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="I9q-yb-1HZ" customClass="ViewControllerOne" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="g15-fg-QdE"/>
+                        <viewControllerLayoutGuide type="bottom" id="gR4-vL-51r"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JGn-ki-11j">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5GW-l0-6sF">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="98" y="184" width="22" height="22"/>
+                                </variation>
+                                <connections>
+                                    <action selector="btn1Click:" destination="I9q-yb-1HZ" eventType="touchUpInside" id="nzU-yG-vAe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WYc-oy-fL1">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="this is view one,click to view two">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="88" y="184" width="224" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="btn1click:" destination="I9q-yb-1HZ" eventType="touchUpInside" id="9Kw-zi-mRe"/>
+                                    <action selector="btnclick:" destination="I9q-yb-1HZ" eventType="touchUpInside" id="dhc-Qc-7MB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="5GW-l0-6sF"/>
+                                <exclude reference="WYc-oy-fL1"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="5GW-l0-6sF"/>
+                                <include reference="WYc-oy-fL1"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="Ygr-qy-a3q"/>
+                    <connections>
+                        <outlet property="btn1" destination="WYc-oy-fL1" id="adS-7j-SYg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AzK-LO-6iQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="229.5" y="560"/>
+        </scene>
+    </scenes>
+</document>
